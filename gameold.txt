@@ -1,7 +1,7 @@
 // Canvas Asteroids
-//
+//just focusse ya yasmeen 
 // Copyright (c) 2010 Doug McInnes
-//
+//walhi da chang 
 // This is a diffrenet change
 KEY_CODES = {
   32: 'space',

@@ -1,7 +1,7 @@
 // Canvas Asteroids
 //This is change one 
 // Copyright (c) 2010 Doug McInnes
-//
+//this is a chang for viewing the changes 
 
 KEY_CODES = {
   13: 'enter',
@@ -182,7 +182,7 @@ Sprite = function () {
     this.rot += this.vel.rot * delta;
     if (this.rot > 360) {
       this.rot -= 360;
-    } else if (this.rot < 0) {
+    } else if (this.rot <= 0) {
       this.rot += 360;
     }
 
@@ -527,7 +527,7 @@ BigAlien = function () {
 
     this.delayBeforeBullet -= delta;
     if (this.delayBeforeBullet <= 0) {
-      this.delayBeforeBullet = 22;
+      this.delayBeforeBullet = 10;
       for (var i = 0; i < this.bullets.length; i++) {
         if (!this.bullets[i].visible) {
           bullet = this.bullets[i];
