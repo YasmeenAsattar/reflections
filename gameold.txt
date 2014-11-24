@@ -2,7 +2,7 @@
 //just focusse ya yasmeen 
 // Copyright (c) 2010 Doug McInnes
 //walhi da chang 
-// This is a diffrenet change
+//// this is to resolve the conflict issue 
 KEY_CODES = {
   32: 'space',
   37: 'left',

@@ -2,7 +2,7 @@
 //This is change one 
 // Copyright (c) 2010 Doug McInnes
 //this is a chang for viewing the changes 
-
+// this is to resolve the conflict issue 
 KEY_CODES = {
   13: 'space',
   32: 'enter',
